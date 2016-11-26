@@ -4,4 +4,8 @@
   <p>{{myValue | uppercase}}</p>
   <p>{{myDate | date:"MM/dd/yy"}}</p>
   <p>{{myValue | slice:3:7 | uppercase}}</p>
+
+  <h2>Custom Pipes</h2>
+  <input type="text" #input (keyup)="0">
+  <p>{{input.value | double}}</p>
 </div>
