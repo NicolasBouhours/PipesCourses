@@ -8,4 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   myValue = 'lowercase';
   myDate = new Date(2016,5,24);
+
+  values = ['Milk', 'Bread', 'Beans'];
 }

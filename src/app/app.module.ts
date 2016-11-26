@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { DoublePipe } from './shared/double.pipe';
+import { FilterPipe } from './shared/filter.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DoublePipe
+    DoublePipe,
+    FilterPipe
   ],
   imports: [
     BrowserModule,
